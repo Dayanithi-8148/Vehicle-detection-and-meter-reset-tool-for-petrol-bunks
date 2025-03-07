@@ -4,7 +4,7 @@ from transformers import DetrImageProcessor, DetrForObjectDetection
 from PIL import Image
 import numpy as np
 
-cap = cv2.VideoCapture("C:/Users/dayan/OneDrive/Desktop/innovation_day_2025/example-6.mp4")
+cap = cv2.VideoCapture("./example.mp4")
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH,1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT,720)
